@@ -18,7 +18,7 @@ Details:
 
 1. MNet and DENEt are trained on ORIGA dataset (650 disc center fundus images with size 3072 × 2048).
 2. Since the image in ORIGA dataset is the disc center, the size 800 × 800 is suitable. However, for REFUGE Challenge, the image is macular center, and the black background outside the fundus view will disturb the MNet. Base on this issue, we change the crop disc ROI to size 600 × 600 ("DiscROI_size" in Code).
-3. **Note that our result saved as '.mat' file, which is <span style="color:red">NOT</span> formal submission format for the REFUGE Challenge. You MUST prepare the result file following the challenge requirement!**
+3. **Note that our result saved as '.mat' file, which is <font color="#ff0000">NOT</font> formal submission format for the REFUGE Challenge. You MUST prepare the result file following the challenge requirement!**
 
 Evaluation on Training Data:
 ----------------------------------
