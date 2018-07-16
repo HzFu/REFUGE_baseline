@@ -58,9 +58,6 @@ We evaluate the baselines on validation data, i.e., 400 Canon CR-2 images (1634Ã
 
 
 
-<img src="figure/ROC_for_ValidationData.jpg" border="0" width="500" height="400">
-
-
 
 References:
 ---------------
