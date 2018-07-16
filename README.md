@@ -49,12 +49,6 @@ Evaluation on Validation Data:
 
 We evaluate the baselines on validation data, i.e., 400 Canon CR-2 images (1634×1634 pixels). **Note that we load the model parameters of MNet and DENet trained on ORIGA dataset directly without any fine-tuning.**
 
-**Segmentation Result:**
-
-
-
-
-**Glaucoma Screening Result:**
 
 
 
