@@ -17,20 +17,28 @@ Details:
 ----------------
 
 1. MNet and DENEt are trained on ORIGA dataset (650 disc center fundus images with size 3072 × 2048).
-2. Since the image in ORIGA dataset is the disc center, the size 800 × 800 is suitable. However, for REFUGE Challenge, the image is macular center, and the black background outside the fundus view will disturb the MNet. Base on this issue, we change the crop disc ROI to size 600 × 600.
+2. Since the image in ORIGA dataset is the disc center, the size 800 × 800 is suitable. However, for REFUGE Challenge, the image is macular center, and the black background outside the fundus view will disturb the MNet. Base on this issue, we change the crop disc ROI to size 600 × 600 ("DiscROI_size" in Code).
 
 
 Evaluation on Training Data:
 ----------------------------------
 We evaluate the baselines on training data, i.e., 400 Zeiss Visucam images (2124×2056 pixels). **Note that we load the model parameters of MNet and DENet trained on ORIGA dataset directly without any fine-tuning.**
 
-**Segmentation Result:** (IOU)
+
+
+**Segmentation Result:** 
+
+By IOU score.
 
 |    |  Disc  |  Cup  |  Avg. |
 | ---------- | --- |  ---  |  ---  |
 | MNet  |   0.7090 | 0.8628 | 0.7859 |
 
-**Glaucoma Screening Result:** (ROC and AUC)
+
+
+**Glaucoma Screening Result:** 
+
+By ROC and AUC score.
 
 <img src="figure/ROC_for_TrainingData.jpg" border="0" width="500" height="400">
 
@@ -44,7 +52,11 @@ We evaluate the baselines on validation data, i.e., 400 Canon CR-2 images (1634�
 **Segmentation Result:**
 
 
+
+
 **Glaucoma Screening Result:**
+
+
 
 <img src="figure/ROC_for_ValidationData.jpg" border="0" width="500" height="400">
 
