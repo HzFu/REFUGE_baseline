@@ -31,7 +31,7 @@ We evaluate the baselines on training data, i.e., 400 Zeiss Visucam images (2124
 
 By IOU score.
 
-|    |  Disc  |  Cup  |  Avg. |
+|    |  Cup  |  Disc  |  Avg. |
 | ---------- | --- |  ---  |  ---  |
 | MNet  |   0.7090 | 0.8628 | 0.7859 |
 
