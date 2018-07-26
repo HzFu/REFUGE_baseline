@@ -54,28 +54,20 @@ We evaluate the baselines on validation data, i.e., 400 Canon CR-2 images (1634Ã
 
 **MNet Result:**
 
-> Evaluating segmentation results 
-
-> Dice Optic Cup **DICE** score = 0.8704837907032029
-
-> Dice Optic Disc **DICE** score = 0.9124488019916737
-
-> MAE CDR = 0.049007256208688184
-
-> Evaluating classification results
-
-> AUC = 0.9630555555555557
-
-> Reference Sensitivity = 0.9
+> Evaluating segmentation results   
+> Dice Optic Cup **DICE** score = 0.8704837907032029    
+> Dice Optic Disc **DICE** score = 0.9124488019916737    
+> MAE CDR = 0.049007256208688184   
+> Evaluating classification results   
+> AUC = 0.9630555555555557   
+> Reference Sensitivity = 0.9   
 
 
 **DENet Result:**
 
-> Evaluating classification results
-
-> AUC = 0.7722222222222221
-
-> Reference Sensitivity = 0.6357142857142858
+> Evaluating classification results    
+> AUC = 0.7722222222222221    
+> Reference Sensitivity = 0.6357142857142858    
 
 
 
