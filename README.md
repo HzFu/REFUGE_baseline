@@ -29,7 +29,7 @@ We evaluate the baselines on training data, i.e., 400 Zeiss Visucam images (2124
 
 **Segmentation Result:** 
 
-By IOU score.
+By **IOU** score.
 
 |    |  Cup  |  Disc  |  Avg. |
 | ---------- | --- |  ---  |  ---  |
@@ -52,7 +52,30 @@ Evaluation on Validation Data:
 
 We evaluate the baselines on validation data, i.e., 400 Canon CR-2 images (1634×1634 pixels). **Note that we load the model parameters of MNet and DENet trained on ORIGA dataset directly without any fine-tuning.**
 
+**MNet Result:**
 
+> Evaluating segmentation results
+
+> Dice Optic Cup = 0.8704837907032029
+
+> Dice Optic Disc = 0.9124488019916737
+
+> MAE CDR = 0.049007256208688184
+
+> Evaluating classification results
+
+> AUC = 0.9630555555555557
+
+> Reference Sensitivity = 0.9
+
+
+**DENet Result:**
+
+> Evaluating classification results
+
+> AUC = 0.7722222222222221
+
+> Reference Sensitivity = 0.6357142857142858
 
 
 
